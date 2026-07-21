@@ -17,10 +17,8 @@ on:
                 required: true
                 type: choice
                 options:
-                    - 'sweetpie'
-                    - 'indev'
-                    - 'indev-imp'
-                default: 'indev'
+                    - 'main'
+                default: 'main'
 
 jobs:
     deploy:
